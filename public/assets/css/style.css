@@ -1,0 +1,46 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+    text-align: left;
+}
+
+.burgertitle {
+    text-align: left;
+}
+
+.toprow {
+    background: #faebd7;
+    border:solid 2px black;
+
+}
+
+.label {
+    font-weight: bold;
+}
+
+.create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+#bur {
+    text-align: left;
+}
