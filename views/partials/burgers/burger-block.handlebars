@@ -1,8 +1,15 @@
 <li>
-    {{burger_name}}
+    <span class="burgername"}>{{burger_name}}</span>
 
-    <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+    <a class="waves-effect change-devoured waves-light btn" data-id="{{id}}" data-newdevoured="{{devoured}}">
+
+        <i class="material-icons right">note</i>
         {{#if devoured}}FATALITY!{{else}}TIME TO EAT UP!{{/if}}
-    </button>
+
+    </a>
+
+    <!--<button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">-->
+        <!--{{#if devoured}}FATALITY!{{else}}TIME TO EAT UP!{{/if}}-->
+    <!--</button>-->
 
 </li>

@@ -2,8 +2,12 @@
     text-align: center;
 }
 
+#input_burger {
+    opacity: 1px;
+}
+
 body {
-    background-color: lightblue;
+    background: lightblue url("https://image.freepik.com/free-vector/yellow-striped-background-with-a-big-burger_23-2147626113.jpg");
 }
 
 h2 {
@@ -13,22 +17,36 @@ h2 {
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: lightblue;
     text-align: left;
 }
 
-.burgertitle {
-    text-align: left;
+.burgername {
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    font-weight:bold;
 }
+
 
 .toprow {
-    background: #faebd7;
+    background: lightblue;
     border:solid 2px black;
+    border-radius: 25px;
 
 }
+
+label {
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    font-family: 'Plaster', cursive;
+}
+
 
 .label {
     font-weight: bold;
+    font-size: 16px;
 }
 
 .create-update-form {
@@ -41,6 +59,14 @@ li {
     margin-bottom: 5px;
 }
 
+form {
+    padding:10px 20px;
+}
+
 #bur {
     text-align: left;
+}
+
+h1, h2 {
+    font-family: 'Plaster', cursive;
 }
